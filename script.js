@@ -76,9 +76,9 @@ document.querySelector('.check').addEventListener('click', function () {
 //
 
 document.querySelector('.again').addEventListener('click', function () {
-  document.querySelector('.message').textContent = 'Start guessing...';
   score = 20;
   const secretNumber = Math.trunc(Math.random() * 2) + 1;
+  document.querySelector('.message').textContent = 'Start guessing...';
   document.querySelector('body').style.backgroundColor = '#333';
   document.querySelector('.score').textContent = score;
   document.querySelector('.number').textContent = '?';
