@@ -26,7 +26,7 @@ document.querySelector('.check').addEventListener('click', function () {
   }
   // When Player wins
   else if (guess == secretNumber) {
-    document.querySelector('.message').textContent = 'Hurray😃';
+    document.querySelector('.message').textContent = 'Hurray😃You Won';
     document.querySelector('body').style.backgroundColor = 'green';
 
     document.querySelector('.number').style.width = '30rem';
